@@ -1,0 +1,14 @@
+var width;
+var height;
+var width = parseInt(prompt("Input width"));
+var height = parseInt(prompt("Input height"));
+var s = width*height;
+document.write("Enter width" );
+document.write("<br/>");
+document.write(width);
+document.write("<br/>");
+document.write("Enter height" );
+document.write("<br/>");
+document.write(height);
+document.write("<br/>");
+document.write("s = " + s);
